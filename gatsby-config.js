@@ -4,6 +4,7 @@ module.exports = {
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@richardpastenes`,
     tagline: `Hello world type of thing`,
+    siteUrl: `https://cocky-yalow-3b8efd.netlify.com/,`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -50,6 +51,8 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
-    `gatsby-plugin-netlify`,
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-netlify`, // Make sure to keep this one at the end of this array
   ],
 };
